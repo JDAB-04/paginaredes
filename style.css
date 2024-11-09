@@ -1,0 +1,63 @@
+/* Grupo de trabajo 
+JULIAN ALVARADO
+ESTEBAN LEAL
+DANILO GARCIA */
+
+
+body{
+    font-family: "Libre Baskerville";
+    color: white;
+    background-color: #202020;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img{
+    width: 150px; /*ancho*/
+    height: 150px; /*alto*/
+    border-radius: 50%; /*forma circular*/
+    object-fit: cover; /*hace que la imagen no se estire*/
+}
+
+.Contenedor h4{
+    color: greenyellow;
+}
+
+.Contenedor{
+    text-align: center;
+    background-color: #333;
+    border-radius: 10px;
+    width: 300px;
+    padding: 30px;
+}
+
+.boton{
+    display: block; /*pone los elementos en una especie de torre*/
+    text-decoration: none;
+    color: white;
+    background-color: rgb(75, 74, 74);
+    padding: 10px;
+    margin: 5px 0; /*genera el espacio entre cada boton*/ 
+    border-radius: 8px;
+}
+
+.boton:hover{
+    background-color: rgba(201, 201, 201, 0.616);
+    color: black;
+    font-size: 1.2rem;
+    transition: 1.5s;
+}
+
+/* Grupo de trabajo 
+JULIAN ALVARADO
+ESTEBAN LEAL
+DANILO GARCIA */
+
